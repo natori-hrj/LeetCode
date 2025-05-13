@@ -1,5 +1,5 @@
 class Solution:
-    def minSum(self, nums1: List[int], nums2: List[int]) -> int:
+    def minSum(self, nums1: list[int], nums2: list[int]) -> int:
         sum1, sum2 = sum(nums1), sum(nums2)
         zeros1, zeros2 = nums1.count(0), nums2.count(0)
 
