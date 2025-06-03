@@ -20,9 +20,7 @@ class Solution:
                             Ci[j] = (Ci[j] + mul * rowB[j]) % MOD
             return C
 
-        # Matrix exponentiation M^e
         def matpow(mat, e):
-            # initialize R = I
             R = [[int(i==j) for j in range(26)] for i in range(26)]
             base = mat
             while e > 0:
